@@ -1,0 +1,26 @@
+body{
+    background:darkblue;
+}
+#box{
+    display:none;
+    width:700px;
+    height:400px;
+    background:lightgrey;
+}
+#box.show{
+    display:block;
+}
+.cross {
+    text-align: end;
+}
+
+.cross span {
+    cursor: pointer;
+    margin-top: 10px;
+    text-align: center;
+    display: inline-block;
+    width: 24px;
+    font-size: 100%;
+    background-color: white;
+    border-radius: 50%;
+}
